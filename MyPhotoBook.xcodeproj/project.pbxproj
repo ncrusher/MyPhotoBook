@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		00485D791EAA8B06009C4A3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00485D781EAA8B06009C4A3A /* AppDelegate.swift */; };
-		00485D7B1EAA8B06009C4A3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00485D7A1EAA8B06009C4A3A /* ViewController.swift */; };
+		00485D7B1EAA8B06009C4A3A /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00485D7A1EAA8B06009C4A3A /* SignInVC.swift */; };
 		00485D7E1EAA8B06009C4A3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00485D7C1EAA8B06009C4A3A /* Main.storyboard */; };
 		00485D801EAA8B06009C4A3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00485D7F1EAA8B06009C4A3A /* Assets.xcassets */; };
 		00485D831EAA8B06009C4A3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00485D811EAA8B06009C4A3A /* LaunchScreen.storyboard */; };
 		00485D8E1EAA8B06009C4A3A /* MyPhotoBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00485D8D1EAA8B06009C4A3A /* MyPhotoBookTests.swift */; };
 		00485D991EAA8B06009C4A3A /* MyPhotoBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00485D981EAA8B06009C4A3A /* MyPhotoBookUITests.swift */; };
+		00485DA71EAA8C1D009C4A3A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00485DA61EAA8C1D009C4A3A /* GoogleService-Info.plist */; };
+		00DD59E1FC91A5C024B58090 /* Pods_MyPhotoBookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F4B4209A8002E607BB542B6 /* Pods_MyPhotoBookUITests.framework */; };
+		81414A9B23D5A24BA933B55C /* Pods_MyPhotoBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62530F8DC1F932EE608E5E6 /* Pods_MyPhotoBook.framework */; };
+		84555707D95C216E8CE9A86C /* Pods_MyPhotoBookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D47C999FC3CC51A0691EAC3 /* Pods_MyPhotoBookTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		00485D751EAA8B06009C4A3A /* MyPhotoBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPhotoBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00485D781EAA8B06009C4A3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		00485D7A1EAA8B06009C4A3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00485D7A1EAA8B06009C4A3A /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		00485D7D1EAA8B06009C4A3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00485D7F1EAA8B06009C4A3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00485D821EAA8B06009C4A3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,16 @@
 		00485D941EAA8B06009C4A3A /* MyPhotoBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPhotoBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00485D981EAA8B06009C4A3A /* MyPhotoBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPhotoBookUITests.swift; sourceTree = "<group>"; };
 		00485D9A1EAA8B06009C4A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00485DA61EAA8C1D009C4A3A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0CA5FFEA5170356626BE7CAE /* Pods-MyPhotoBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPhotoBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyPhotoBook/Pods-MyPhotoBook.release.xcconfig"; sourceTree = "<group>"; };
+		0D47C999FC3CC51A0691EAC3 /* Pods_MyPhotoBookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPhotoBookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F4B4209A8002E607BB542B6 /* Pods_MyPhotoBookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPhotoBookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49CBDCADE04C3A344E67DD2C /* Pods-MyPhotoBookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPhotoBookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyPhotoBookTests/Pods-MyPhotoBookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A445476BD939802BCFC6ABA5 /* Pods-MyPhotoBookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPhotoBookUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyPhotoBookUITests/Pods-MyPhotoBookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A919F71AE3D75F2C3786BC18 /* Pods-MyPhotoBookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPhotoBookUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyPhotoBookUITests/Pods-MyPhotoBookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F62530F8DC1F932EE608E5E6 /* Pods_MyPhotoBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPhotoBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA89A6BB7B52293B8EB05519 /* Pods-MyPhotoBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPhotoBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyPhotoBook/Pods-MyPhotoBook.debug.xcconfig"; sourceTree = "<group>"; };
+		FDC614C67C19E5197F9F0F42 /* Pods-MyPhotoBookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPhotoBookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyPhotoBookTests/Pods-MyPhotoBookTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81414A9B23D5A24BA933B55C /* Pods_MyPhotoBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84555707D95C216E8CE9A86C /* Pods_MyPhotoBookTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00DD59E1FC91A5C024B58090 /* Pods_MyPhotoBookUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				00485D8C1EAA8B06009C4A3A /* MyPhotoBookTests */,
 				00485D971EAA8B06009C4A3A /* MyPhotoBookUITests */,
 				00485D761EAA8B06009C4A3A /* Products */,
+				020FEAA7BCB56328583BD890 /* Pods */,
+				9BA1A054F30D5D5C0AA9F131 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +116,16 @@
 		00485D771EAA8B06009C4A3A /* MyPhotoBook */ = {
 			isa = PBXGroup;
 			children = (
+				00485DAA1EAA8EF7009C4A3A /* View */,
+				00485DA91EAA8EEB009C4A3A /* Controller */,
+				00485DA81EAA8EE4009C4A3A /* Model */,
 				00485D781EAA8B06009C4A3A /* AppDelegate.swift */,
-				00485D7A1EAA8B06009C4A3A /* ViewController.swift */,
+				00485D7A1EAA8B06009C4A3A /* SignInVC.swift */,
 				00485D7C1EAA8B06009C4A3A /* Main.storyboard */,
 				00485D7F1EAA8B06009C4A3A /* Assets.xcassets */,
 				00485D811EAA8B06009C4A3A /* LaunchScreen.storyboard */,
 				00485D841EAA8B06009C4A3A /* Info.plist */,
+				00485DA61EAA8C1D009C4A3A /* GoogleService-Info.plist */,
 			);
 			path = MyPhotoBook;
 			sourceTree = "<group>";
@@ -125,6 +148,50 @@
 			path = MyPhotoBookUITests;
 			sourceTree = "<group>";
 		};
+		00485DA81EAA8EE4009C4A3A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		00485DA91EAA8EEB009C4A3A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		00485DAA1EAA8EF7009C4A3A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		020FEAA7BCB56328583BD890 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA89A6BB7B52293B8EB05519 /* Pods-MyPhotoBook.debug.xcconfig */,
+				0CA5FFEA5170356626BE7CAE /* Pods-MyPhotoBook.release.xcconfig */,
+				49CBDCADE04C3A344E67DD2C /* Pods-MyPhotoBookTests.debug.xcconfig */,
+				FDC614C67C19E5197F9F0F42 /* Pods-MyPhotoBookTests.release.xcconfig */,
+				A919F71AE3D75F2C3786BC18 /* Pods-MyPhotoBookUITests.debug.xcconfig */,
+				A445476BD939802BCFC6ABA5 /* Pods-MyPhotoBookUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9BA1A054F30D5D5C0AA9F131 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F62530F8DC1F932EE608E5E6 /* Pods_MyPhotoBook.framework */,
+				0D47C999FC3CC51A0691EAC3 /* Pods_MyPhotoBookTests.framework */,
+				0F4B4209A8002E607BB542B6 /* Pods_MyPhotoBookUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00485D9D1EAA8B06009C4A3A /* Build configuration list for PBXNativeTarget "MyPhotoBook" */;
 			buildPhases = (
+				D2E91907F0E1F370EB9C81BC /* [CP] Check Pods Manifest.lock */,
 				00485D711EAA8B06009C4A3A /* Sources */,
 				00485D721EAA8B06009C4A3A /* Frameworks */,
 				00485D731EAA8B06009C4A3A /* Resources */,
+				A6E96537CB502484D758D6C2 /* [CP] Embed Pods Frameworks */,
+				BF461409FDAEB0480FC33420 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00485DA01EAA8B06009C4A3A /* Build configuration list for PBXNativeTarget "MyPhotoBookTests" */;
 			buildPhases = (
+				3BC5A32B7DF50493800A6552 /* [CP] Check Pods Manifest.lock */,
 				00485D851EAA8B06009C4A3A /* Sources */,
 				00485D861EAA8B06009C4A3A /* Frameworks */,
 				00485D871EAA8B06009C4A3A /* Resources */,
+				4D38EAA5A523EEC8C1646003 /* [CP] Embed Pods Frameworks */,
+				47B60775AF7989B62D428E29 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00485DA31EAA8B06009C4A3A /* Build configuration list for PBXNativeTarget "MyPhotoBookUITests" */;
 			buildPhases = (
+				F65F1569DFDD1C35D087A3B9 /* [CP] Check Pods Manifest.lock */,
 				00485D901EAA8B06009C4A3A /* Sources */,
 				00485D911EAA8B06009C4A3A /* Frameworks */,
 				00485D921EAA8B06009C4A3A /* Resources */,
+				D9C938D7129813A4EBB6CC49 /* [CP] Embed Pods Frameworks */,
+				31E736959D5C1648D725364E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +311,7 @@
 				00485D831EAA8B06009C4A3A /* LaunchScreen.storyboard in Resources */,
 				00485D801EAA8B06009C4A3A /* Assets.xcassets in Resources */,
 				00485D7E1EAA8B06009C4A3A /* Main.storyboard in Resources */,
+				00485DA71EAA8C1D009C4A3A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,12 +331,150 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		31E736959D5C1648D725364E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyPhotoBookUITests/Pods-MyPhotoBookUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BC5A32B7DF50493800A6552 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		47B60775AF7989B62D428E29 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyPhotoBookTests/Pods-MyPhotoBookTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D38EAA5A523EEC8C1646003 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyPhotoBookTests/Pods-MyPhotoBookTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6E96537CB502484D758D6C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyPhotoBook/Pods-MyPhotoBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF461409FDAEB0480FC33420 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyPhotoBook/Pods-MyPhotoBook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2E91907F0E1F370EB9C81BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D9C938D7129813A4EBB6CC49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyPhotoBookUITests/Pods-MyPhotoBookUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F65F1569DFDD1C35D087A3B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		00485D711EAA8B06009C4A3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00485D7B1EAA8B06009C4A3A /* ViewController.swift in Sources */,
+				00485D7B1EAA8B06009C4A3A /* SignInVC.swift in Sources */,
 				00485D791EAA8B06009C4A3A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,6 +625,7 @@
 		};
 		00485D9E1EAA8B06009C4A3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA89A6BB7B52293B8EB05519 /* Pods-MyPhotoBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyPhotoBook/Info.plist;
@@ -422,6 +638,7 @@
 		};
 		00485D9F1EAA8B06009C4A3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CA5FFEA5170356626BE7CAE /* Pods-MyPhotoBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyPhotoBook/Info.plist;
@@ -434,6 +651,7 @@
 		};
 		00485DA11EAA8B06009C4A3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49CBDCADE04C3A344E67DD2C /* Pods-MyPhotoBookTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +666,7 @@
 		};
 		00485DA21EAA8B06009C4A3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDC614C67C19E5197F9F0F42 /* Pods-MyPhotoBookTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +681,7 @@
 		};
 		00485DA41EAA8B06009C4A3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A919F71AE3D75F2C3786BC18 /* Pods-MyPhotoBookUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = MyPhotoBookUITests/Info.plist;
@@ -475,6 +695,7 @@
 		};
 		00485DA51EAA8B06009C4A3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A445476BD939802BCFC6ABA5 /* Pods-MyPhotoBookUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = MyPhotoBookUITests/Info.plist;
@@ -505,6 +726,7 @@
 				00485D9F1EAA8B06009C4A3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00485DA01EAA8B06009C4A3A /* Build configuration list for PBXNativeTarget "MyPhotoBookTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +735,7 @@
 				00485DA21EAA8B06009C4A3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00485DA31EAA8B06009C4A3A /* Build configuration list for PBXNativeTarget "MyPhotoBookUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +744,7 @@
 				00485DA51EAA8B06009C4A3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

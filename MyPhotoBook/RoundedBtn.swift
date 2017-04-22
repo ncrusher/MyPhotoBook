@@ -1,0 +1,31 @@
+//
+//  RoundedBtn.swift
+//  MyPhotoBook
+//
+//  Created by Khai Le on 4/21/17.
+//  Copyright © 2017 Kaiba. All rights reserved.
+//
+
+import UIKit
+
+class RoundedBtn: UIButton {
+
+    override func awakeFromNib() {
+        
+        super.awakeFromNib()
+        
+        layer.shadowColor = UIColor(red: SHADOW_GRAY, green: SHADOW_GRAY, blue: SHADOW_GRAY, alpha: SHADOW_GRAY).cgColor
+        layer.shadowOpacity = 4.0
+        layer.shadowRadius = 5.0
+        layer.shadowOffset = CGSize(width: 1.0, height: 2.0) // how far the shadow goes out
+        imageView?.contentMode = .scaleAspectFit //scales the image view to aspect to fit
+        }
+    
+    override func layoutSubviews() {
+        
+        super.layoutSubviews()
+        
+        layer.cornerRadius = self.frame.width / 2
+        
+    }
+}
